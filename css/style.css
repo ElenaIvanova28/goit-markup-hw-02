@@ -1,0 +1,284 @@
+:root
+{
+--primery-text-color: #212121;
+--title-text-color: #757575;
+--accent-color: #2196F3;
+--white-text-color: #FFFFFF;
+--white-light-text-color:rgba(255, 255, 255, 0.6);
+--black-text-color: #000000;
+--black-light-color: #2F303A;
+--white-secondary-color: #F5F4FA;
+}
+
+.body 
+{
+    font-family: "Roboto", sans-serif;
+    background-color: var(--white-text-color);
+    color: var(--primery-text-color);
+}
+a {
+    text-decoration: none;
+  }
+
+/*logo*/
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    font-style: normal;
+  }
+
+.logo 
+{
+  color: var(--black-text-color); 
+}
+.accent
+{
+color: var(--accent-color) ;
+}
+/*site-nav*/
+.page-links {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+  
+  }
+  .page-links .links.current {
+    color:var(--accent-color);
+  }
+  .page-links .links {
+      color: var(--primery-text-color);
+  }
+  .page-links .links:hover,
+  .page-links .links:focus {
+  color:var(--accent-color);
+}
+.contact-links {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+  }
+  
+  .contact-links .links {
+    color:var(--primery-text-color);
+  }
+  .contact-links .links:hover,
+  .contact-links .links:focus {
+    color: var(--accent-color);
+  }
+
+.contact .link
+{
+    color:var(--primery-text-color);   
+}
+.contact .link:hover,
+.contact .link:focus
+{
+    color: var(--accent-color);   
+}
+
+/*hero*/
+.hero {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    background-color: var(--black-light-color);
+    color: var(--white-text-color);
+    text-align: center;
+  }
+  
+.hero-button {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
+  }
+  .hero-button {
+    font-family: "Roboto", sans-serif;
+    color: var(--white);
+    background-color: var(--accent-color);
+    }
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+/*section*/
+.list-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    color: var(--primery-text-color);
+  }
+  
+  .list-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--primery-text-color);
+  }
+  
+.work-title 
+{ 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    color: var(--primery-text-color);
+  
+}
+.team-title
+{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    color: var(--primery-text-color);
+}
+.name-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--black-text-color);
+  }
+  
+  .position {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+    color: var(--black-light-color);
+  }
+
+/*footer*/
+.footer
+{
+    background-color: var(--black-light-color) ;
+}
+.address {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--white-text-color);
+  }
+  
+  .address:hover,
+  .address:focus {
+    color: var(--accent-color);
+  }
+  
+  .contact-links .contact-title {
+    color: var(--white-light-text-color);
+  }
+  
+  .contact-links {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+  }
+  
+  .contact-links .contact-title:hover,
+  .contact-links .contact-title:focus {
+    color: var(--accent-color);
+  }
+  
+  .footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    font-style: normal;
+  }
+  
+  .footer-logo {
+    color: var(--white-text-color);
+  }
+  
+  .accent {
+    color: var(--accent-color);
+  }
+
+
+  /*portfolio*/
+
+  .filter-element {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+  }
+  
+  .filters-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+  }
+  
+  .filters-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+  }
+  .footer {
+    background-color: var(--black-light-color);
+  }
+  .btn {
+    color: var(--black-text);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .btn:hover,
+  .btn:focus {
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+  }
+  
+  .filters-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    color: var(--black-text-color);
+  }
+  
+  .filters-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--black-light-color);
+  }
+  
+
+
+/*цвет основного текста #212121 */ 
+/*вторичный цвет текста #757575 */ 
+/*акцент  #2196F3 */   
+/*белый цвет #FFFFFF */
+/*вторичный белый rgba(255, 255, 255, 0.6)*/
+/*черный цвет #000000 */
+/*вторичный цвет фона #F5F4FA*/
+/* цвет фона герой и футер #2F303A*/
