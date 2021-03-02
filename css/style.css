@@ -19,7 +19,9 @@
 a {
     text-decoration: none;
   }
-
+.header {
+  background-color: var(--white-text-color);
+}
 /*logo*/
 .logo {
     font-family: "Raleway", sans-serif;
@@ -45,7 +47,7 @@ color: var(--accent-color) ;
     line-height: 1.14;
   
   }
-  .page-links .links.current {
+  .page-links .current {
     color:var(--accent-color);
   }
   .page-links .links {
@@ -55,6 +57,7 @@ color: var(--accent-color) ;
   .page-links .links:focus {
   color:var(--accent-color);
 }
+
 .contact-links {
     font-style: normal;
     font-weight: 500;
@@ -102,6 +105,7 @@ color: var(--accent-color) ;
     font-family: "Roboto", sans-serif;
     color: var(--white);
     background-color: var(--accent-color);
+    cursor: pointer;
     }
   .visually-hidden {
     position: absolute;
@@ -141,6 +145,9 @@ color: var(--accent-color) ;
     text-align: center;
     color: var(--primery-text-color);
   
+}
+.team {
+  background-color: var(--white-secondary-color);
 }
 .team-title
 {
@@ -248,6 +255,7 @@ color: var(--accent-color) ;
     font-size: 16px;
     line-height: 1.62;
     font-family: "Roboto", sans-serif;
+    cursor: pointer;
   }
   
   .btn:hover,
