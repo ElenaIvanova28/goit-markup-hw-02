@@ -10,7 +10,7 @@
 --white-secondary-color: #F5F4FA;
 }
 
-.body 
+body 
 {
     font-family: "Roboto", sans-serif;
     background-color: var(--white-text-color);
@@ -29,6 +29,8 @@ a {
     font-size: 26px;
     line-height: 1.19;
     font-style: normal;
+    letter-spacing: 0.03em;
+
   }
 
 .logo 
@@ -45,6 +47,7 @@ color: var(--accent-color) ;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.02em;
   
   }
   .page-links .current {
@@ -63,6 +66,7 @@ color: var(--accent-color) ;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.02em;
   }
   
   .contact-links .links {
@@ -92,6 +96,8 @@ color: var(--accent-color) ;
     background-color: var(--black-light-color);
     color: var(--white-text-color);
     text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
   }
   
 .hero-button {
@@ -100,6 +106,9 @@ color: var(--accent-color) ;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
   }
   .hero-button {
     font-family: "Roboto", sans-serif;
@@ -125,6 +134,8 @@ color: var(--accent-color) ;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--primery-text-color);
   }
   
@@ -133,7 +144,8 @@ color: var(--accent-color) ;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
-    color: var(--primery-text-color);
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
   }
   
 .work-title 
@@ -143,6 +155,7 @@ color: var(--accent-color) ;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
+    letter-spacing: 0.03em;
     color: var(--primery-text-color);
   
 }
@@ -155,6 +168,7 @@ color: var(--accent-color) ;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
+    letter-spacing: 0.03em;
     color: var(--primery-text-color);
 }
 .name-title {
@@ -162,7 +176,8 @@ color: var(--accent-color) ;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    color: var(--black-text-color);
+    letter-spacing: 0.03em;
+    color: var(--primery-text-color);
   }
   
   .position {
@@ -170,7 +185,8 @@ color: var(--accent-color) ;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
-    color: var(--black-light-color);
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
   }
 
 /*footer*/
@@ -183,6 +199,7 @@ color: var(--accent-color) ;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
     color: var(--white-text-color);
   }
   
@@ -200,6 +217,7 @@ color: var(--accent-color) ;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
+    letter-spacing: 0.03em;
   }
   
   .contact-links .contact-title:hover,
@@ -213,6 +231,7 @@ color: var(--accent-color) ;
     font-size: 26px;
     line-height: 1.19;
     font-style: normal;
+    letter-spacing: 0.03em;
   }
   
   .footer-logo {
@@ -231,6 +250,7 @@ color: var(--accent-color) ;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
+    letter-spacing: 0.03em;
   }
   
   .filters-title {
@@ -238,6 +258,8 @@ color: var(--accent-color) ;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primery-text-color);
   }
   
   .filters-text {
@@ -245,17 +267,21 @@ color: var(--accent-color) ;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
   }
   .footer {
     background-color: var(--black-light-color);
   }
   .btn {
-    color: var(--black-text);
+    color: var(--primery-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     font-family: "Roboto", sans-serif;
     cursor: pointer;
+    background-color: var(--white-secondary-color);
+    letter-spacing: 0.03em;
   }
   
   .btn:hover,
@@ -264,21 +290,8 @@ color: var(--accent-color) ;
     background-color: var(--accent-color);
   }
   
-  .filters-title {
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    color: var(--black-text-color);
-  }
   
-  .filters-text {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.87;
-    color: var(--black-light-color);
-  }
+  
   
 
 
